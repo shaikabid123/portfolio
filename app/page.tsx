@@ -1,0 +1,29 @@
+import { Navbar } from "@/components/ui/navbar";
+import { Hero } from "@/components/sections/hero";
+import { About } from "@/components/sections/about";
+import { Skills } from "@/components/sections/skills";
+import { AiLab } from "@/components/sections/ai-lab";
+import { Experience } from "@/components/sections/experience";
+import { Projects } from "@/components/sections/projects";
+import { Education } from "@/components/sections/education";
+import { Contact } from "@/components/sections/contact";
+import { Footer } from "@/components/sections/footer";
+
+export default function Page() {
+  return (
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <AiLab />
+        <Experience />
+        <Projects />
+        <Education />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
+}
